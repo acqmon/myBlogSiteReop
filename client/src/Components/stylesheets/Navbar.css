@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navContainer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container{
+    width: 1024px;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1024px;
+    background: rgb(95, 95, 146);
+}
+
+.navLogo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    padding-left: 1rem;
+}
+
+.navLinks{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-right: 1rem;
+}
+
+.user{
+    color: burlywood;
+}
+
+.newBlog{
+    background: rgb(112, 210, 205);
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.loginContainer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: whitesmoke;
+}
+
+.loginContainer h3{
+    width: 100vw;
+    height: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 3rem;
+}
+
+.loginForm {
+    width: 20%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: lightcoral;
+    border-radius: 5rem;
+    box-shadow: 0rem 0.5rem 0.5rem lightslategray;
+}
+
+.loginForm .lable{
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: .5rem;
+    overflow: hidden;
+}
+
+.loginForm input{
+    width: 65%;
+    height: 10%;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    background: whitesmoke;
+}
+
+.loginClick{
+    width: 20%;
+    height: 8%;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}

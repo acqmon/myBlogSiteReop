@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.menu .menuhead{
+    color: rgb(126, 183, 202);
+    font-size: 25px;
+}
+
+.postContents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.postContents img{
+    box-shadow: none;
+    width: 80%;
+}
+
+.postContents h2{
+    color: teal;
+    font-size: 15px;
+}
