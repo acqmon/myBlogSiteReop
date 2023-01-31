@@ -2,7 +2,7 @@
 
 This project is still in development stage...
 
-only the layout of "HOme" and "SinglePage" have been done yet with the hard data.
+only the layout of "Home" and "SinglePage" have been done yet with the hard data.
  
 when completed it will have feature like 
 1) create , edit, delete feature
